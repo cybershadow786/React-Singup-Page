@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.email , .passwd , .confirmPass{
+    width: 100%;
+    display: flex;
+
+}
+.email > label > h3 {
+    width: fit-content;
+}
+.email > label {
+    width: 80%;
+}
+.email > label > input {
+    padding: .8rem;
+    outline: none;
+    border: none;
+    border-radius: 3rem;
+    width: 100%;
+    font-size: large;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.email > label > input::placeholder{
+    font-size: large;
+}

@@ -1,0 +1,38 @@
+.bDay{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.bDay > input{
+    width: 80%;
+    padding: .78rem;
+    outline: none;
+    border: none;
+    border-radius: 30rem;
+    align-self: flex-end;
+}
+.bDay > label{
+    justify-content: flex-end;
+}
+.bDay > input::-webkit-datetime-edit{
+    font-size: large;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.gender{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.form > div{
+    margin: .3rem;
+    width: fit-content;
+    font-size: large;
+}
